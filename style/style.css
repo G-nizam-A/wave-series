@@ -557,6 +557,7 @@ body.active {
 	height: 100vh;
 	padding: 4.1vw 0;
 	z-index: 1;
+	background-color: #bfffff;
 }
 
 .header__wrapp {
@@ -666,8 +667,8 @@ body.active {
 }
 
 .header__bott-wrapp {
-	display: flex;
-	justify-content: space-between;
+	/* display: flex;
+	justify-content: space-between; */
 }
 
 .header__bott-scroll {
@@ -716,6 +717,7 @@ body.active {
 
 .header__social-wrapp {
 	display: flex;
+	justify-content: space-around;
 }
 
 .header__social-item {
